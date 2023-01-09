@@ -2,9 +2,11 @@
 
 ### A system tray application for interacting with FRITZ!Box devices.
 
-![fritzbox-tray](https://user-images.githubusercontent.com/48277853/211208943-1cbb41fb-60a7-44d1-a697-5d0493bb167c.png)
+[![fritzbox-tray](https://user-images.githubusercontent.com/48277853/211208943-1cbb41fb-60a7-44d1-a697-5d0493bb167c.png)](https://github.com/aviolaris/fritzbox-tray)
 
 ![python-versions](https://img.shields.io/pypi/pyversions/fritzbox-tray)
+![code-size](https://img.shields.io/github/languages/code-size/aviolaris/fritzbox-tray)
+![repo-size](https://img.shields.io/github/repo-size/aviolaris/fritzbox-tray)
 
 ![status](https://img.shields.io/pypi/status/fritzbox-tray)
 [![license](https://img.shields.io/pypi/l/fritzbox-tray?color=blueviolet)](https://github.com/aviolaris/fritzbox-tray/blob/master/LICENSE)
