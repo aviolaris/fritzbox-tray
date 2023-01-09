@@ -20,8 +20,6 @@ from pystray import Icon, Menu, MenuItem
 from PIL import Image
 import pkg_resources
 
-tray = None
-
 
 def send_soap_request(service, action):
     """
@@ -79,7 +77,7 @@ def parse_ip_from_xml(xml_string: str) -> str:
     return ip_address
 
 
-def get_external_ip_address() -> None:
+def get_external_ip_address(tray) -> None:
     """
     Retrieve and display the external IP address of the FRITZ!Box device.
 
@@ -96,7 +94,7 @@ def get_external_ip_address() -> None:
     tray.notify(title="Current IP Address", message=ip_address if response else 'Failed!')
 
 
-def reconnect_fritzbox() -> None:
+def reconnect_fritzbox(tray) -> None:
     """
     Reconnect the FRITZ!Box device.
 
@@ -113,7 +111,7 @@ def reconnect_fritzbox() -> None:
                 message='Succeeded!' if "ForceTerminationResponse" in response else 'Failed!')
 
 
-def terminate():
+def terminate(tray) -> None:
     """
     Terminate the current process.
 
@@ -125,7 +123,12 @@ def terminate():
 
 
 def main():
-    global tray
+    """
+    Main entry point for the application.
+
+    This function creates a tray icon and sets up a menu with several options.
+    It then runs the tray icon to display it in the system tray.
+    """
     tray = Icon("FritzBox Tray")
     tray.icon = Image.open(pkg_resources.resource_filename(__name__, 'resources/ft.ico'))
     get_external_ip_address_item = MenuItem("Display Current IP Address", get_external_ip_address)
