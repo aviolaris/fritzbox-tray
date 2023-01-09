@@ -27,7 +27,7 @@ with open('requirements.txt', encoding='utf-8') as f:
 
 setup(
     name='fritzbox-tray',
-    version='1.0.55',
+    version='1.0.58',
     packages=find_namespace_packages(where="src"),
     package_dir={"": "src"},
     package_data={
@@ -37,7 +37,9 @@ setup(
     description='A system tray application for interacting with FRITZ!Box devices.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    keywords=['fritz', 'fritzbox', 'fritzbox-tray', 'fritzbox_tray', 'tray'],
+    keywords=['fritz', 'fritzbox', 'fritz-box', 'fritzbox-tray', 'fritzbox_tray',
+              'avm-fritz', 'tray', 'python', 'pypi', 'python3', 'tray',
+              'tray-application', 'pypi-package', 'tray-app'],
     author='Andreas Violaris',
     url='https://github.com/aviolaris/fritzbox-tray',
     install_requires=requirements,
