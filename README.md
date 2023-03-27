@@ -16,8 +16,7 @@
 ## Features
 
 - Display current external IP address
-- Reconnect FRITZ!Box device
-- Quit application
+- Renew IP address
 
 ## Requirements
 
@@ -31,22 +30,22 @@ To install FritzBox Tray, run the following command:
 
 ## Usage
 
-To start FritzBox Tray:
+To launch FritzBox Tray:
 
- - **On Windows**, the application can be run from any location. Simply double-click the `fritzbox-tray.exe` (usually located in `%LOCALAPPDATA%\Programs\Python\Python##\Scripts` or run the `fritzbox-tray` command from the command prompt.
-
-
- - **On Linux**, it is necessary to navigate to the application's folder path (usually located in `~/.local/bin`) before running the application, using the `./fritzbox-tray` command.
-
-This will place an icon in the system tray. Right-clicking on the icon will display a menu with the following options:
-
- - **Display Current IP Address**: Display a notification with the current external IP address of the FRITZ!Box device
+ - **On Windows**, double-click the `fritzbox-tray.exe` (usually located in `%LOCALAPPDATA%\Programs\Python\Python##\Scripts` or run the `fritzbox-tray` command from the command prompt.
 
 
- - **Reconnect**: Terminate and re-establish the Internet connection of the FRITZ!Box device
+ - **On Linux**, double-click the `fritzbox-tray` (usually located in `~/.local/bin`) or run the `./fritzbox-tray` command from the terminal.
+
+Once the program is running, an icon will be added to the system tray. By right-clicking on the icon, a menu will appear containing the following options:
+
+ - **Display Current IP Address**: This option will trigger a notification displaying the current external IP address of the FRITZ!Box device.
 
 
- - **Quit**: Close the application
+ - **Reconnect**: This option allows you to instantly obtain a new IP address by terminating and re-establishing the Internet connection.
+
+
+ - **Quit**: This option enables you to close the application.
 
 ## Common Issues
 
