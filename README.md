@@ -10,7 +10,7 @@
 [![license](https://img.shields.io/pypi/l/fritzbox-tray?color=blueviolet)](https://github.com/aviolaris/fritzbox-tray/blob/master/LICENSE)
 ![format](https://img.shields.io/pypi/format/fritzbox-tray?color=blueviolet)
 ![status](https://img.shields.io/pypi/status/fritzbox-tray?color=blue)
-![GitHub Repo stars](https://img.shields.io/github/stars/aviolaris/fritzbox-tray?color=blue&logo=github&logoColor=white)
+[![GitHub Stars](https://img.shields.io/github/stars/aviolaris/fritzbox-tray?color=blue&logo=github&logoColor=white)](https://github.com/aviolaris/fritzbox-tray/stargazers)
 
 
 ## Features
