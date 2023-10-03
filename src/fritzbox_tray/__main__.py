@@ -133,9 +133,11 @@ def main():
     tray.icon = Image.open(pkg_resources.resource_filename(__name__, 'resources/ft.ico'))
     get_external_ip_address_item = MenuItem("Display Current IP Address", get_external_ip_address)
     reconnect_item = MenuItem("Reconnect", reconnect_fritzbox)
+    separator = Menu.SEPARATOR
     exit_item = MenuItem("Quit", terminate)
     menu = Menu(get_external_ip_address_item,
                 reconnect_item,
+                separator,
                 exit_item)
     tray.menu = menu
     tray.run()
