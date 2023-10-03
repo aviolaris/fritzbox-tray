@@ -18,6 +18,10 @@
 - Display current external IP address
 - Renew IP address
 
+## Preview
+
+[![fritzbox-tray](https://github.com/aviolaris/fritzbox-tray/assets/48277853/542c1b6f-77df-4681-b623-a875fadfc005)](https://github.com/aviolaris/fritzbox-tray)
+
 ## Requirements
 
 - Python 3.6 or higher
