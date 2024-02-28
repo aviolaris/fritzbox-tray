@@ -27,7 +27,7 @@ with open('requirements.txt', encoding='utf-8') as f:
 
 setup(
     name='fritzbox-tray',
-    version='1.0.67',
+    version='1.0.68',
     packages=find_namespace_packages(where="src"),
     package_dir={"": "src"},
     package_data={
