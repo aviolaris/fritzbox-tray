@@ -3,6 +3,6 @@ charset-normalizer==3.3.2
 idna==3.7
 Pillow==10.3.0
 pystray==0.19.5
-requests==2.31.0
+requests==2.32.2
 six==1.16.0
 urllib3==2.2.1
