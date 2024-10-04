@@ -1,8 +1,8 @@
 certifi==2024.8.30
 charset-normalizer==3.3.2
-idna==3.8
+idna==3.10
 Pillow==10.4.0
 pystray==0.19.5
 requests==2.32.3
 six==1.16.0
-urllib3==2.2.2
+urllib3==2.2.3
