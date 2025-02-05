@@ -6,3 +6,7 @@ updates:
     schedule:
       interval: "weekly"
     target-branch: "1.0.x"
+    groups:
+      dependencies:
+        patterns:
+          - "*"
