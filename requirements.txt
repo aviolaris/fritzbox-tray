@@ -1,5 +1,5 @@
 charset-normalizer==3.4.2
-certifi==2025.4.26
+certifi==2025.6.15
 idna==3.10
 Pillow==11.2.1
 pystray==0.19.5
