@@ -1,6 +1,6 @@
 charset-normalizer==3.4.1
 certifi==2024.12.14
-idna==3.10
+idna==3.15
 Pillow==12.1.1
 pystray==0.19.5
 requests==2.32.3
